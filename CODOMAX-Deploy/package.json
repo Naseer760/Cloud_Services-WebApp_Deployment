@@ -1,0 +1,25 @@
+{
+  "name": "campus-lost-and-found",
+  "version": "1.0.0",
+  "description": "Full-stack Campus Lost & Found Portal with Live Alerts",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "node --watch server/server.js",
+    "client": "npm --prefix client run dev",
+    "dev": "node server/server.js",
+    "seed": "node server/scripts/seed.js",
+    "create-admin": "node server/scripts/createAdmin.js",
+    "build": "npm --prefix client run build"
+  },
+  "keywords": [
+    "campus",
+    "lost-and-found",
+    "real-time",
+    "socketio",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "author": "Campus Development Team",
+  "license": "ISC"
+}
